@@ -1,0 +1,22 @@
+[
+  {
+    "file": "test.php",
+    "mode": "append",
+    "snippet": "echo 'Hello';",
+    "marker": "hello_block"
+  },
+  {
+    "file": "index.php",
+    "mode": "after",
+    "pattern": "require.+autoload\\.php;",
+    "snippet": "date_default_timezone_set('Asia/Colombo');",
+    "marker": "tz_set"
+  },
+  {
+    "file": "config.php",
+    "mode": "replace",
+    "pattern": "\\$config\\['env'\\]\\s*=\\s*'[^']*';",
+    "snippet": "$config['env'] = 'production';",
+    "marker": "env_set"
+  }
+]

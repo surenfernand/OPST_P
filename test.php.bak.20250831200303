@@ -1,0 +1,13 @@
+<?php
+
+
+
+
+echo 'Hello';
+
+echo 'Hello';
+
+echo 'World';
+
+echo date('Y-m-d');
+?>
